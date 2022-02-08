@@ -1,0 +1,36 @@
+{
+	"folders": [
+		{
+			"name": "code_gigs_v2",
+			"path": "..\\..\\..\\javascript\\node_projects\\code_gigs_v2"
+		},
+		{
+			"path": "..\\..\\tkinter\\tutorials"
+		},
+		{
+			"path": "..\\..\\tkinter\\Tkinter-Apps\\School-Productivity-App"
+		},
+		{
+			"path": "..\\..\\tkinter\\Tkinter-Apps\\Typing-Speed-App"
+		},
+		{
+			"path": "..\\..\\tkinter\\Tkinter-Apps\\Text-Editor-App"
+		},
+		{
+			"path": "..\\..\\tkinter\\Tkinter-Apps\\UC-Transfer-App"
+		},
+		{
+			"path": ".."
+		},
+		{
+			"path": "..\\..\\..\\javascript\\nft-project"
+		},
+		{
+			"path": "..\\..\\games"
+		},
+		{
+			"path": "..\\..\\..\\..\\Desktop\\zelda"
+		}
+	],
+	"settings": {}
+}
