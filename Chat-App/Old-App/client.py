@@ -1,5 +1,6 @@
 from socket import * 
 from threading import *
+from select import * 
 
 #CONSTANTS
 IP = gethostbyname(gethostname())
@@ -30,7 +31,7 @@ def sendMessage():
         client.send(userInput.encode(FORMAT))
 
 def listenMessages():
-    while connected: 
+    while True: 
         msgLength = int(client.recv(HEADER))
         msgContent = client.recv(msgLength).decode(FORMAT)
         print(f"{msgContent}")
@@ -44,7 +45,13 @@ while connected:
     else: 
         print("Enter Username: ", end="")
         username = True 
-    sendMessage()
-    thread = Thread(target=listenMessages, args=())
-    thread.start()
+
+
+
+    # thread = Thread(target=sendMessage(), args=())
+    # thread.start()
+
+
+    # thread = Thread(target=listenMessages, args=())
+    # thread.start()
     
