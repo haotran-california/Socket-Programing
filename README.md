@@ -1,12 +1,9 @@
-# Socket-Programing
+# Socket-Programing: 
+Creating a chat app with python sockets and tkinter. This app creates a chatroom for users on the local computer. 
 
-Creating a chat app with python sockets and tkinter by. 
-#what does it do =? 
+# How to run: 
+Download both server and client files. Then run the server on one console. Then run the clients on other consoles.
 
-
-#how you can run the program
-
-
-#reference 
-a tutorial by Zhang Zeyu. 
+#Reference:  
+Based off a tutorial by Zhang Zeyu. 
 Linked here: https://python.plainenglish.io/build-a-chatroom-app-with-python-458fc435025a
